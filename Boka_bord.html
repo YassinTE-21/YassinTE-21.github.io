@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boka nu!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="Index.html">Startsida</a>
+            <a href="Menu.html">Meny</a>
+            <a href="OpenTimes.html">Öppettider</a>
+            <a href="Boka_bord.html">Boka Nu!</a> 
+        </nav>
+    </header>
+    
+    <main>
+        <section id="booking">
+            <h2>Boka bord</h2>
+            <p>För en oförglömlig matupplevelse, boka ditt bord redan idag!</p>
+            <form>
+                <label for="name">Namn:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">E-post:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Telefonnummer:</label>
+                <input type="text" id="phone" name="phone" required>
+                
+                <label for="date">Datum:</label>
+                <input type="date" id="date" name="date" required>
+                
+                <label for="time">Tid:</label>
+                <input type="time" id="time" name="time" required>
+                
+                <label for="guests">Antal gäster:</label>
+                <input type="number" id="guests" name="guests" required>
+                
+                <input type="submit" value="Boka">
+            </form>
+        </section>
+    </main>
+    
+    
+    <footer>Chef Tingeling Sedan 2002</footer>
+</body>
+</html>
