@@ -9,7 +9,7 @@ nav a {
     margin-right: 20px;
 }
 nav a:hover {
-    text-decoration: underline;
+    text-decoration:wavy underline;
 }
 main {
     padding: 20px;
