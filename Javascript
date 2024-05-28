@@ -1,3 +1,4 @@
+
 var image = document.getElementById("myImage");
 var images = ["Huvudentre.jpg", "Hallway.jpg", "resturang.jpg"];
 var currentImageIndex = 0;
