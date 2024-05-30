@@ -71,12 +71,14 @@ main {
   border-radius: 10px;
 }
 
+
 footer {
   background-color: #e1c5adf7; 
   color: #fff;
   text-align: center;
   padding: 1rem 0;
   margin-top: auto;
+  border-bottom: ;
 }
 
 footer .socials-container {
