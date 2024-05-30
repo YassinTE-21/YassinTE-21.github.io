@@ -78,7 +78,7 @@ footer {
   text-align: center;
   padding: 1rem 0;
   margin-top: auto;
-  border-bottom: ;
+  
 }
 
 footer .socials-container {
@@ -104,7 +104,7 @@ footer .socials-container a:hover {
 #myImage {
     display: block;
     margin: 0 auto;
-    width: 400px;
+    width: 360px;
     animation: fadeIn 5s; }
     @keyframes fadeIn {
       0% { opacity: 0; }
